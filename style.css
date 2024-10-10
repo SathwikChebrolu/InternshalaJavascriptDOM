@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1,p {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+#displaySection {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#studentTable th, #studentTable td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+    white-space: nowrap; 
+}
+
+#studentTable th {
+    background-color: #f8f9fa;
+}
+
+#studentTable td:nth-child(1) {  
+    width: 25%;
+}
+
+#studentTable td:nth-child(2) { 
+    width: 15%;
+}
+
+#studentTable td:nth-child(3) {  
+    width: 30%;
+}
+
+#studentTable td:nth-child(4) {  
+    width: 20%;
+}
+
+#studentTable td:nth-child(5) {  
+    width: 10%;
+}
